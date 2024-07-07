@@ -13,13 +13,14 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 
 *2) Do the WiFi/Bluetooth connectivity features of the ESP32 present a vulnerability?*
 
+
 ## Parts
 ### (your build may vary)
-ESP32
-QR204
-5v, 2A USB power bank
-Breadboard pins
-Trash USB cable
+• ESP32
+• QR204
+• 5v, 2A USB power bank
+• Breadboard pins
+• Trash USB cable
 
 ## ESP32
 Sketch is written using Arduino IDE v1.8.
