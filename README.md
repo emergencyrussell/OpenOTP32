@@ -20,7 +20,8 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 ### [Parts](https://github.com/emergencyrussell/OpenOTP32#parts-1)
 ### [Tools](https://github.com/emergencyrussell/OpenOTP32#tools-1)
 ### [Installation & Assembly](https://github.com/emergencyrussell/OpenOTP32#installation--assembly-1)
-- 1. [Upload the Sketch](https://github.com/emergencyrussell/OpenOTP32#1-upload-the-sketch-1)
+1.
+- [Upload the Sketch](https://github.com/emergencyrussell/OpenOTP32#1-upload-the-sketch-1)
   - 1.1 [Detecting the ESP32 on Your Machine](https://github.com/emergencyrussell/OpenOTP32#11-detecting-the-esp32-on-your-machine-1)
   - 1.2 [Installing the Needed Libraries](https://github.com/emergencyrussell/OpenOTP32#12-installing-the-needed-libraries-1)
 #### 2. [Prepare the Thermal Printer](https://github.com/emergencyrussell/OpenOTP32#2-prepare-the-thermal-printer-1)
