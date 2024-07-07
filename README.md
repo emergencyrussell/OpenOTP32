@@ -32,7 +32,7 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 
 4. [Connect Power](https://github.com/emergencyrussell/OpenOTP32#4-connect-power-1)
 
-5. [Power On the Assembly](https://github.com/emergencyrussell/OpenOTP32#5-power-on-the-assembly-1)
+5. [Power On the Assembly](#5-power-on-the-assembly-1)
 
 ## [Building](https://github.com/emergencyrussell/OpenOTP32#building)
 ### [Parts](https://github.com/emergencyrussell/OpenOTP32#parts)
