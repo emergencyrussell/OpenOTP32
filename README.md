@@ -16,11 +16,11 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 *2. Do the WiFi/Bluetooth connectivity features of the ESP32 present a vulnerability?*
 
 ## Building
-- Parts
-- Tools
+- [Parts](https://github.com/emergencyrussell/OpenOTP32#parts)
+- [Tools](https://github.com/emergencyrussell/OpenOTP32#tools)
 - [Installation & Assembly](https://github.com/emergencyrussell/OpenOTP32#installation--assembly)
 
-### [Parts](https://github.com/emergencyrussell/OpenOTP32#parts)
+### Parts
 ##### (your build may vary)
 - ESP32
 - QR204
