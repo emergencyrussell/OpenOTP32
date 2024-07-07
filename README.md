@@ -40,7 +40,7 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 #### Power Bank
 5V, 2A. Per the [Adafruit documentation](https://cdn-learn.adafruit.com/downloads/pdf/mini-thermal-receipt-printer.pdf), a current of 2A is required for the printer to function.
 
-### [Tools](https://github.com/emergencyrussell/OpenOTP32#tools)
+### Tools
 - A wire stripper (or sharp edge)
 
 ### Installation & Assembly
