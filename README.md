@@ -15,16 +15,19 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 
 *2. Do the WiFi/Bluetooth connectivity features of the ESP32 present a vulnerability?*
 
-## Contents
-### [Building](https://github.com/emergencyrussell/OpenOTP32#building-1)
-#### [Parts](https://github.com/emergencyrussell/OpenOTP32#parts)
-#### [Tools](https://github.com/emergencyrussell/OpenOTP32#tools)
-#### [Installation & Assembly](https://github.com/emergencyrussell/OpenOTP32#installation--assembly)
-##### 1. [Upload the Sketch](https://github.com/emergencyrussell/OpenOTP32#1-upload-the-sketch)
-###### 1.1 [Detecting the ESP32 on Your Machine](https://github.com/emergencyrussell/OpenOTP32#11-detecting-the-esp32-on-your-machine)
-###### 1.2 [Installing the Needed Libraries](https://github.com/emergencyrussell/OpenOTP32#12-installing-the-needed-libraries)
-##### 2. [Prepare the Thermal Printer](https://github.com/emergencyrussell/OpenOTP32#contents)
-###### 2.1. [Connect the Printer to the ESP32]()
+# Contents
+## [Building](https://github.com/emergencyrussell/OpenOTP32#building-1)
+### [Parts](https://github.com/emergencyrussell/OpenOTP32#parts)
+### [Tools](https://github.com/emergencyrussell/OpenOTP32#tools)
+### [Installation & Assembly](https://github.com/emergencyrussell/OpenOTP32#installation--assembly)
+#### 1. [Upload the Sketch](https://github.com/emergencyrussell/OpenOTP32#1-upload-the-sketch)
+##### 1.1 [Detecting the ESP32 on Your Machine](https://github.com/emergencyrussell/OpenOTP32#11-detecting-the-esp32-on-your-machine)
+##### 1.2 [Installing the Needed Libraries](https://github.com/emergencyrussell/OpenOTP32#12-installing-the-needed-libraries)
+#### 2. [Prepare the Thermal Printer](https://github.com/emergencyrussell/OpenOTP32#contents)
+##### 2.1. [Connect the Printer to the ESP32]()
+#### 3. [Prepare USB Cable]()
+#### 4. [Connect Power]()
+#### 5. [Power On the Assembly]()
 
 ## [Building](https://github.com/emergencyrussell/OpenOTP32#building)
 ### Parts
@@ -79,10 +82,10 @@ Depending on your cable situation, you may need to solder. The QR204 typically c
 
 To be able to run the OTP assembly off of the USB power bank, you'll need to strip your USB cable so that the ESP32 and QR204 Voltage (VIN) and Ground (GND) pins are connected to the juice. 
 
-#### 4. Connect Power to the ESP32 and QR204
+#### 4. Connect Power
 
 Attach the red wire (VIN) of the trash USB to the VIN cable of the QR204 and the VIN pin of the ESP32, and then attach the black wire (GND) of the USB to the GND cable and pin, with soldering, alligator clips, or, for austere builds, the breadboard cables can be stripped and twisted together with the USB wires. 
 
 #### 5. Power On the Assembly
 
-That's all there is to it. Power it on and the ESP32 will send its RNG string to be printed as a single pair of keys. Hopefully you didn't forget to load a roll of thermal receipt paper in the printer.
+That's all there is to it. Power it on and the ESP32 will send its RNG string to be printed as a single pair of keys. Hopefully you didn't forget to load a roll of thermal receipt paper in the printer. If you did, go ahead and load it and press the EN button on the ESP32 and it will send a new string to the printer.
