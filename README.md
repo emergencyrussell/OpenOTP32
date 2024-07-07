@@ -26,10 +26,13 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
   
 - [Installing the Needed Libraries](https://github.com/emergencyrussell/OpenOTP32#12-installing-the-needed-libraries-1)
 
-#### 2. [Prepare the Thermal Printer](https://github.com/emergencyrussell/OpenOTP32#2-prepare-the-thermal-printer-1)
-#### 3. [Prepare USB Cable](https://github.com/emergencyrussell/OpenOTP32#3-prepare-the-usb-cable)
-#### 4. [Connect Power](https://github.com/emergencyrussell/OpenOTP32#4-connect-power-1)
-#### 5. [Power On the Assembly](https://github.com/emergencyrussell/OpenOTP32#5-power-on-the-assembly-1)
+2. [Prepare the Thermal Printer](https://github.com/emergencyrussell/OpenOTP32#2-prepare-the-thermal-printer-1)
+
+3. [Prepare USB Cable](https://github.com/emergencyrussell/OpenOTP32#3-prepare-the-usb-cable)
+
+4. [Connect Power](https://github.com/emergencyrussell/OpenOTP32#4-connect-power-1)
+
+5. [Power On the Assembly](https://github.com/emergencyrussell/OpenOTP32#5-power-on-the-assembly-1)
 
 ## [Building](https://github.com/emergencyrussell/OpenOTP32#building)
 ### [Parts](https://github.com/emergencyrussell/OpenOTP32#parts)
