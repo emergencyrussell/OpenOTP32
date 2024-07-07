@@ -17,7 +17,7 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 ## Building
 To build the OpenOTP32, you will need a power source to connect both the ESP32 and the QR204.
 
-For portable builds, you obviously need a battery system of some sort. Five volts is ideal. You don't want more than 9V for the printer, and from what I read, the ESP32 won't like dealing with extra voltage. Two-amp draw is also required for the printer. I opted for a USB power bank phone charger since I already had one available and it met the necessary power specifications, which can be read [here](https://cdn-learn.adafruit.com/downloads/pdf/mini-thermal-receipt-printer.pdf).
+For portable builds, you obviously need a battery system of some sort. Five volts is ideal. You don't want more than 9V for the printer, and from what I read, the ESP32 won't like dealing with extra voltage. Two-amp draw is also required for the printer. I opted for a USB power bank phone charger since I already had one available and it met the necessary power specifications, which can be read in detail within the [printer's datasheet](https://cdn-learn.adafruit.com/downloads/pdf/mini-thermal-receipt-printer.pdf).
 
 ### Parts
 ##### (your build may vary)
