@@ -34,6 +34,8 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 
 5. <a name="5-powass">[Power On the Assembly](#5_powass)</a>
 
+
+
 ## <a name="b_building">[Building](#b-building)</a>
 ### <a name="p_parts">[Parts](#p-parts)</a>
 ##### (your build may vary)
@@ -58,7 +60,10 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 ### <a name="t_tools">[Tools](#t-tools)</a>
 - A wire stripper (or sharp edge)
 
+
+
 ### <a name="instal-ass">[Installation & Assembly](#instal_ass)</a>
+
 
 #### 1. <a name="1_upsketch">[Upload the Sketch](#1-upsketch)</a>
 After setting up your machine to detect the ESP32 and installing the necessary libraries, upload the provided code from the Arduino IDE v1.8 to the ESP32 board.
@@ -73,6 +78,7 @@ You may need some drivers to get your machine to detect the ESP32: I used the [S
 
 Sketch -> Include Library -> Add .ZIP Library…
 
+
 #### 2. <a name="2_preprint">[Prepare the Thermal Printer](#2-preprint)</a>
 
 Depending on your cable situation, you may need to solder. The QR204 typically comes with connector cables, which can be used in conjunction with the breadboard cables, or the connectors can be bypassed with female to female breadboard cables if necessary. Using male-female breadboard cables with the provided QR204 connectors is a more sturdy connection.
@@ -83,13 +89,16 @@ Connect the Printer to the ESP32:
 - RX: Attach to Pin 17
 - GND: Ground; attach to one of the ESP32's GND pins
 
+
 #### 3. <a name="3_prepusb">[Prepare the USB Cable](#3-prepusb)</a>
 
 To be able to run the OTP assembly off of the USB power bank, you'll need to strip your USB cable so that the ESP32 and QR204 Voltage (VIN) and Ground (GND) pins are connected to the juice. 
 
+
 #### 4. <a name="4_conpow">[Connect Power](#4-conpow)</a>
 
 Attach the red wire (VIN) of the trash USB to the VIN cable of the QR204 and the VIN pin of the ESP32, and then attach the black wire (GND) of the USB to the GND cable and pin, with soldering, alligator clips, or, for austere builds, the breadboard cables can be stripped and twisted together with the USB wires. 
+
 
 #### 5. <a name="5_powass">[Power On the Assembly](#5-powass)</a>
 
