@@ -20,16 +20,12 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 - Tools
 - Installation & Assembly
 
-To build the OpenOTP32, you will need a power source to connect both the ESP32 and the QR204.
-
-For portable builds, you obviously need a battery system of some sort. Five volts is ideal. You don't want more than 9V for the printer, and from what I read, the ESP32 won't like dealing with extra voltage. Two-amp draw is also required for the printer. I opted for a USB power bank phone charger since I already had one available and it met the necessary power specifications, which can be read in detail within the [printer's datasheet](https://cdn-learn.adafruit.com/downloads/pdf/mini-thermal-receipt-printer.pdf).
-
 ### Parts
 ##### (your build may vary)
 - ESP32
 - QR204
 - 5v, 2A USB power bank
-- Breadboard pins
+- Breadboard extension wires (male + female)
 - Trash USB cable
 
 #### ESP32
@@ -48,4 +44,11 @@ For portable builds, you obviously need a battery system of some sort. Five volt
 - A wire stripper (or sharp edge)
 
 ### Installation & Assembly
-1. 
+#### 1. Upload the sketch to the ESP32 from the Arduino IDE v1.8. 
+
+##### 1.1. You may need some drivers to get your machine to detect the ESP32: I used the [Silicon Labs CP210x VCP Windows Driver](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads) (Third option down).
+
+##### 1.2. In order to upload the sketch, you'll need two libraries installed:
+
+- [Adafruit Thermal Printer Library](https://github.com/adafruit/Adafruit-Thermal-Printer-Library)
+- [EspSoftware Serial](https://github.com/plerup/espsoftwareserial)
