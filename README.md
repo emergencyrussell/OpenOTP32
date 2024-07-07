@@ -51,6 +51,7 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 - A wire stripper (or sharp edge)
 
 ### Installation & Assembly
+
 #### 1. Upload the Sketch
 After setting up your machine to detect the ESP32 and installing the necessary libraries, upload the provided code from the Arduino IDE v1.8 to the ESP32 board.
 
@@ -73,3 +74,15 @@ Depending on your cable situation, you may need to solder. The QR204 typically c
 - TX: Attach to Pin 16 on the ESP32
 - RX: Attach to Pin 17
 - GND: Ground; attach to one of the ESP32's GND pins
+
+#### 3. Prepare the USB Cable
+
+To be able to run the OTP assembly off of the USB power bank, you'll need to strip your USB cable so that the ESP32 and QR204 Voltage (VIN) and Ground (GND) pins are connected to the juice. 
+
+#### 4. Connect Power to the ESP32 and QR204
+
+Attach the red wire (VIN) of the trash USB to the VIN cable of the QR204 and the VIN pin of the ESP32, and then attach the black wire (GND) of the USB to the GND cable and pin, with soldering, alligator clips, or, for austere builds, the breadboard cables can be stripped and twisted together with the USB wires. 
+
+#### 5. Power On the Assembly
+
+That's all there is to it. Power it on and the ESP32 will send its RNG string to be printed as a single pair of keys. Hopefully you didn't forget to load a roll of thermal receipt paper in the printer.
