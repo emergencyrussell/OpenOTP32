@@ -60,7 +60,7 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 
 ### <a name="instal-ass">[Installation & Assembly](#instal_ass)</a>
 
-#### <a name="1_upsketch">[1. Upload the Sketch](#1-upsketch)</a>
+#### 1. <a name="1_upsketch">[Upload the Sketch](#1-upsketch)</a>
 After setting up your machine to detect the ESP32 and installing the necessary libraries, upload the provided code from the Arduino IDE v1.8 to the ESP32 board.
 
 ##### <a name="1_1_detesp">[Detecting the ESP32 on Your Machine](#1-1-detesp)</a>
@@ -73,7 +73,7 @@ You may need some drivers to get your machine to detect the ESP32: I used the [S
 
 Sketch -> Include Library -> Add .ZIP Library…
 
-#### <a name="2_preprint">[2. Prepare the Thermal Printer](#2-preprint)</a>
+#### 2. <a name="2_preprint">[Prepare the Thermal Printer](#2-preprint)</a>
 
 Depending on your cable situation, you may need to solder. The QR204 typically comes with connector cables, which can be used in conjunction with the breadboard cables, or the connectors can be bypassed with female to female breadboard cables if necessary. Using male + female breadboard cables with the provided QR204 connectors is a more sturdy connection.
 
@@ -87,10 +87,10 @@ Connect the Printer to the ESP32:
 
 To be able to run the OTP assembly off of the USB power bank, you'll need to strip your USB cable so that the ESP32 and QR204 Voltage (VIN) and Ground (GND) pins are connected to the juice. 
 
-#### <a name="4_conpow">[4. Connect Power](#4-conpow)</a>
+#### 4. <a name="4_conpow">[Connect Power](#4-conpow)</a>
 
 Attach the red wire (VIN) of the trash USB to the VIN cable of the QR204 and the VIN pin of the ESP32, and then attach the black wire (GND) of the USB to the GND cable and pin, with soldering, alligator clips, or, for austere builds, the breadboard cables can be stripped and twisted together with the USB wires. 
 
-#### <a name="5_powass">[5. Power On the Assembly](#5-powass)</a>
+#### 5. <a name="5_powass">[Power On the Assembly](#5-powass)</a>
 
 That's all there is to it. Power it on and the ESP32 will send its RNG string to be printed as a single pair of keys. Hopefully you didn't forget to load a roll of thermal receipt paper in the printer. If you did, go ahead and load it and press the EN button on the ESP32 and it will send a new string to the printer.
