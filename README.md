@@ -102,4 +102,4 @@ Attach the red wire (VIN) of the trash USB to the VIN cable of the QR204 and the
 
 #### 5. <a name="5_powass">[Power On the Assembly](#5-powass)</a>
 
-Plug the USB cable into the power bank and power on. That's all there is to it. Power it on and the ESP32 will send its RNG string to be printed as a single pair of identical keys. Hopefully you didn't forget to load a roll of thermal receipt paper in the printer. If you did, go ahead and load it and press the EN button on the ESP32 and it will send a new string to the printer.
+Plug the USB cable into the power bank and switch on. That's all there is to it. Power it on and the ESP32 will send its RNG string to be printed as a single pair of identical keys. Hopefully you didn't forget to load a roll of thermal receipt paper in the printer. If you did, go ahead and load it and press the EN button on the ESP32 and it will send a new string to the printer.
