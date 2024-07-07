@@ -16,20 +16,21 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 *2. Do the WiFi/Bluetooth connectivity features of the ESP32 present a vulnerability?*
 
 ## Contents
-### [Building](https://github.com/emergencyrussell/OpenOTP32#building)
-#### - [Parts](https://github.com/emergencyrussell/OpenOTP32#parts)
-#### - [Tools](https://github.com/emergencyrussell/OpenOTP32#tools)
-#### - [Installation & Assembly](https://github.com/emergencyrussell/OpenOTP32#installation--assembly)
-##### - 1. [Upload the Sketch](https://github.com/emergencyrussell/OpenOTP32#1-upload-the-sketch)
-###### - [Detecting the ESP32 on Your Machine](https://github.com/emergencyrussell/OpenOTP32#11-detecting-the-esp32-on-your-machine)
+### [Building](https://github.com/emergencyrussell/OpenOTP32#building-1)
+#### [Parts](https://github.com/emergencyrussell/OpenOTP32#parts)
+#### [Tools](https://github.com/emergencyrussell/OpenOTP32#tools)
+#### [Installation & Assembly](https://github.com/emergencyrussell/OpenOTP32#installation--assembly)
+##### 1. [Upload the Sketch](https://github.com/emergencyrussell/OpenOTP32#1-upload-the-sketch)
+###### 1.1 [Detecting the ESP32 on Your Machine](https://github.com/emergencyrussell/OpenOTP32#11-detecting-the-esp32-on-your-machine)
+###### 1.2 [Installing the Needed Libraries](https://github.com/emergencyrussell/OpenOTP32#12-installing-the-needed-libraries)
 
-## Building
+## [Building](https://github.com/emergencyrussell/OpenOTP32#building)
 ### Parts
 ##### (your build may vary)
 - ESP32
 - QR204
 - 5v, 2A USB power bank
-- Breadboard extension wires (male + female)
+- Breadboard extension cables (male + female, or just female)
 - Trash USB cable
 
 #### ESP32
@@ -54,9 +55,17 @@ After setting up your machine to detect the ESP32 and installing the necessary l
 ##### 1.1. Detecting the ESP32 on Your Machine
 You may need some drivers to get your machine to detect the ESP32: I used the [Silicon Labs CP210x VCP Windows Driver](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads) (Third option down).
 
-##### 1.2. In order to upload the sketch, you'll need two libraries installed:
+##### 1.2. Installing the Needed Libraries:
 
 - [Adafruit Thermal Printer Library](https://github.com/adafruit/Adafruit-Thermal-Printer-Library)
 - [EspSoftware Serial](https://github.com/plerup/espsoftwareserial)
 
+Sketch -> Include Library -> Add .ZIP Library…
+
 #### 2. Prepare the thermal printer
+
+Depending on your cable situation, you may need to solder. The QR204 typically comes with connector cables, which can be used in conjunction with the breadboard cables, or the connectors can be bypassed with female to female breadboard cables if necessary. Using male + female breadboard cables with the provided QR204 connectors is a more sturdy connection.
+
+- TX: Attach to Pin 16 on the ESP32
+- RX: Attach to Pin 17
+- GND: Ground; attach to one of the ESP32's GND pins
