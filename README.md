@@ -18,9 +18,9 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 ## Building
 - Parts
 - Tools
-- Installation & Assembly
+- [Installation & Assembly](https://github.com/emergencyrussell/OpenOTP32#installation--assembly)
 
-### Parts
+### [Parts](https://github.com/emergencyrussell/OpenOTP32#parts)
 ##### (your build may vary)
 - ESP32
 - QR204
@@ -40,7 +40,7 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 #### Power Bank
 5V, 2A. Per the [Adafruit documentation](https://cdn-learn.adafruit.com/downloads/pdf/mini-thermal-receipt-printer.pdf), a current of 2A is required for the printer to function.
 
-### Tools
+### [Tools](https://github.com/emergencyrussell/OpenOTP32#tools)
 - A wire stripper (or sharp edge)
 
 ### Installation & Assembly
