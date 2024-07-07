@@ -28,7 +28,7 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 
 2. <a name="2-preprint">[Prepare the Thermal Printer](#2_preprint)</a>
 
-3. <a name="3_prepusb">[Prepare USB Cable](#3_prepusb)</a>
+3. <a name="3-prepusb">[Prepare USB Cable](#3_prepusb)</a>
 
 4. <a name="4-conpow">[Connect Power](#4_conpow)</a>
 
