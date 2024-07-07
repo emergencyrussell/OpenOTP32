@@ -34,6 +34,7 @@ For portable builds, you obviously need a battery system of some sort. Five volt
 
 #### QR204
 - The "Tiny" model of Adafruit thermal printer, again, documented [here](https://cdn-learn.adafruit.com/downloads/pdf/mini-thermal-receipt-printer.pdf).
+- It's a fun little printer. I recommend playing around with it to see all the cool things you can do with it. :)
 
 #### Power Bank
 5V, 2A. Per the [Adafruit documentation](https://cdn-learn.adafruit.com/downloads/pdf/mini-thermal-receipt-printer.pdf), a current of 2A is required for the printer to function.
