@@ -20,7 +20,8 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 #### - [Parts](https://github.com/emergencyrussell/OpenOTP32#parts)
 #### - [Tools](https://github.com/emergencyrussell/OpenOTP32#tools)
 #### - [Installation & Assembly](https://github.com/emergencyrussell/OpenOTP32#installation--assembly)
-##### - 
+##### - 1. [Upload the Sketch](https://github.com/emergencyrussell/OpenOTP32#1-upload-the-sketch)
+###### - [Detecting the ESP32 on Your Machine](https://github.com/emergencyrussell/OpenOTP32#11-detecting-the-esp32-on-your-machine)
 
 ## Building
 ### Parts
