@@ -24,7 +24,7 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 ###### 1.1 [Detecting the ESP32 on Your Machine](https://github.com/emergencyrussell/OpenOTP32#11-detecting-the-esp32-on-your-machine)
 ###### 1.2 [Installing the Needed Libraries](https://github.com/emergencyrussell/OpenOTP32#12-installing-the-needed-libraries)
 ##### 2. [Prepare the Thermal Printer](https://github.com/emergencyrussell/OpenOTP32#contents)
-###### 	2.1. [Connect the Printer to the ESP32]()
+###### 2.1. [Connect the Printer to the ESP32]()
 
 ## [Building](https://github.com/emergencyrussell/OpenOTP32#building)
 ### Parts
@@ -45,7 +45,7 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 - It's a fun little printer. I recommend playing around with it to see all the cool things you can do with it. :)
 
 #### Power Bank
-5V, 2A. Per the [Adafruit documentation](https://cdn-learn.adafruit.com/downloads/pdf/mini-thermal-receipt-printer.pdf), a current of 2A is required for the printer to function.
+5V, 2A. Per the [Adafruit documentation](https://cdn-learn.adafruit.com/downloads/pdf/mini-thermal-receipt-printer.pdf), a current of 2A is required for the printer to function. This means the low-end 1A power banks won't cut it.
 
 ### Tools
 - A wire stripper (or sharp edge)
