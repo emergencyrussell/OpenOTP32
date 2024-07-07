@@ -16,9 +16,9 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 *2. Do the WiFi/Bluetooth connectivity features of the ESP32 present a vulnerability?*
 
 # Contents
-## [Building](https://github.com/emergencyrussell/OpenOTP32#building-1)
-### [Parts](https://github.com/emergencyrussell/OpenOTP32#parts-1)
-### [Tools](https://github.com/emergencyrussell/OpenOTP32#tools-1)
+## <a name="b-building">[Building](#b_building)</a>
+### <a name="p-parts">[Parts](#p_parts)</a>
+### <a name="t-tools">[Tools](#t_tools)</a>
 ### <a name="instal-ass">[Installation & Assembly](#instal_ass)</a>
 1. <a name="1-upsketch">[Upload the Sketch](#1_upsketch)</a>
   
@@ -34,8 +34,8 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 
 5. <a name="5-powass">[Power On the Assembly](#5_powass)</a>
 
-## [Building](https://github.com/emergencyrussell/OpenOTP32#building)
-### [Parts](https://github.com/emergencyrussell/OpenOTP32#parts)
+## <a name="b_building">[Building](#b-building)</a>
+### <a name="p_parts">[Parts](#p-parts)</a>
 ##### (your build may vary)
 - ESP32
 - QR204
@@ -55,7 +55,7 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 #### Power Bank
 5V, 2A. Per the [Adafruit documentation](https://cdn-learn.adafruit.com/downloads/pdf/mini-thermal-receipt-printer.pdf), a current of 2A is required for the printer to function. This means the low-end 1A power banks won't cut it.
 
-### [Tools](https://github.com/emergencyrussell/OpenOTP32#tools)
+### <a name="t_tools">[Tools](#t-tools)</a>
 - A wire stripper (or sharp edge)
 
 ### <a name="instal-ass">[Installation & Assembly](#instal_ass)</a>
