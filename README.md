@@ -17,20 +17,19 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 
 # Contents
 ## [Building](https://github.com/emergencyrussell/OpenOTP32#building-1)
-### [Parts](https://github.com/emergencyrussell/OpenOTP32#parts)
-### [Tools](https://github.com/emergencyrussell/OpenOTP32#tools)
-### [Installation & Assembly](https://github.com/emergencyrussell/OpenOTP32#installation--assembly)
-#### 1. [Upload the Sketch](https://github.com/emergencyrussell/OpenOTP32#1-upload-the-sketch)
-##### 1.1 [Detecting the ESP32 on Your Machine](https://github.com/emergencyrussell/OpenOTP32#11-detecting-the-esp32-on-your-machine)
-##### 1.2 [Installing the Needed Libraries](https://github.com/emergencyrussell/OpenOTP32#12-installing-the-needed-libraries)
-#### 2. [Prepare the Thermal Printer](https://github.com/emergencyrussell/OpenOTP32#contents)
-##### 2.1. [Connect the Printer to the ESP32]()
-#### 3. [Prepare USB Cable]()
-#### 4. [Connect Power]()
-#### 5. [Power On the Assembly]()
+### [Parts](https://github.com/emergencyrussell/OpenOTP32#parts-1)
+### [Tools](https://github.com/emergencyrussell/OpenOTP32#tools-1)
+### [Installation & Assembly](https://github.com/emergencyrussell/OpenOTP32#installation--assembly-1)
+  #### 1. [Upload the Sketch](https://github.com/emergencyrussell/OpenOTP32#1-upload-the-sketch-1)
+    ##### 1.1 [Detecting the ESP32 on Your Machine](https://github.com/emergencyrussell/OpenOTP32#11-detecting-the-esp32-on-your-machine-1)
+    ##### 1.2 [Installing the Needed Libraries](https://github.com/emergencyrussell/OpenOTP32#12-installing-the-needed-libraries-1)
+  #### 2. [Prepare the Thermal Printer](https://github.com/emergencyrussell/OpenOTP32#2-prepare-the-thermal-printer-1)
+  #### 3. [Prepare USB Cable](https://github.com/emergencyrussell/OpenOTP32#3-prepare-the-usb-cable)
+  #### 4. [Connect Power](https://github.com/emergencyrussell/OpenOTP32#4-connect-power-1)
+  #### 5. [Power On the Assembly](https://github.com/emergencyrussell/OpenOTP32#5-power-on-the-assembly-1)
 
 ## [Building](https://github.com/emergencyrussell/OpenOTP32#building)
-### Parts
+### [Parts](https://github.com/emergencyrussell/OpenOTP32#parts)
 ##### (your build may vary)
 - ESP32
 - QR204
@@ -50,7 +49,7 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 #### Power Bank
 5V, 2A. Per the [Adafruit documentation](https://cdn-learn.adafruit.com/downloads/pdf/mini-thermal-receipt-printer.pdf), a current of 2A is required for the printer to function. This means the low-end 1A power banks won't cut it.
 
-### Tools
+### [Tools](https://github.com/emergencyrussell/OpenOTP32#tools)
 - A wire stripper (or sharp edge)
 
 ### Installation & Assembly
@@ -72,7 +71,7 @@ Sketch -> Include Library -> Add .ZIP Library…
 
 Depending on your cable situation, you may need to solder. The QR204 typically comes with connector cables, which can be used in conjunction with the breadboard cables, or the connectors can be bypassed with female to female breadboard cables if necessary. Using male + female breadboard cables with the provided QR204 connectors is a more sturdy connection.
 
-##### 2.1. Connect the Printer to the ESP32
+Connect the Printer to the ESP32:
 
 - TX: Attach to Pin 16 on the ESP32
 - RX: Attach to Pin 17
