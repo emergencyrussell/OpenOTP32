@@ -24,7 +24,7 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 ###### 1.1 [Detecting the ESP32 on Your Machine](https://github.com/emergencyrussell/OpenOTP32#11-detecting-the-esp32-on-your-machine)
 ###### 1.2 [Installing the Needed Libraries](https://github.com/emergencyrussell/OpenOTP32#12-installing-the-needed-libraries)
 ##### 2. [Prepare the Thermal Printer](https://github.com/emergencyrussell/OpenOTP32#contents)
-	###### 2.1. [Connect the Printer to the ESP32]()
+###### 	2.1. [Connect the Printer to the ESP32]()
 
 ## [Building](https://github.com/emergencyrussell/OpenOTP32#building)
 ### Parts
