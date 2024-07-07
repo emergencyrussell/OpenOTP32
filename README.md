@@ -32,7 +32,7 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 
 4. [Connect Power](https://github.com/emergencyrussell/OpenOTP32#4-connect-power-1)
 
-5. [Power On the Assembly](#5_powass)
+5. <a name="5-powass">[Power On the Assembly](#5_powass)</a>
 
 ## [Building](https://github.com/emergencyrussell/OpenOTP32#building)
 ### [Parts](https://github.com/emergencyrussell/OpenOTP32#parts)
@@ -91,6 +91,6 @@ To be able to run the OTP assembly off of the USB power bank, you'll need to str
 
 Attach the red wire (VIN) of the trash USB to the VIN cable of the QR204 and the VIN pin of the ESP32, and then attach the black wire (GND) of the USB to the GND cable and pin, with soldering, alligator clips, or, for austere builds, the breadboard cables can be stripped and twisted together with the USB wires. 
 
-#### <a name="5_powass">5. Power On the Assembly</a>
+#### <a href="5-powass" name="5_powass">5. Power On the Assembly</a>
 
 That's all there is to it. Power it on and the ESP32 will send its RNG string to be printed as a single pair of keys. Hopefully you didn't forget to load a roll of thermal receipt paper in the printer. If you did, go ahead and load it and press the EN button on the ESP32 and it will send a new string to the printer.
