@@ -40,7 +40,7 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 - ESP32
 - QR204
 - 5v, 2A USB power bank
-- Breadboard extension cables (male + female, or just female)
+- Breadboard extension cables (male-female, or female-female)
 - Trash USB cable
 
 #### ESP32
@@ -75,7 +75,7 @@ Sketch -> Include Library -> Add .ZIP Library…
 
 #### 2. <a name="2_preprint">[Prepare the Thermal Printer](#2-preprint)</a>
 
-Depending on your cable situation, you may need to solder. The QR204 typically comes with connector cables, which can be used in conjunction with the breadboard cables, or the connectors can be bypassed with female to female breadboard cables if necessary. Using male + female breadboard cables with the provided QR204 connectors is a more sturdy connection.
+Depending on your cable situation, you may need to solder. The QR204 typically comes with connector cables, which can be used in conjunction with the breadboard cables, or the connectors can be bypassed with female to female breadboard cables if necessary. Using male-female breadboard cables with the provided QR204 connectors is a more sturdy connection.
 
 Connect the Printer to the ESP32:
 
