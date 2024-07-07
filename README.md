@@ -23,6 +23,8 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 ##### 1. [Upload the Sketch](https://github.com/emergencyrussell/OpenOTP32#1-upload-the-sketch)
 ###### 1.1 [Detecting the ESP32 on Your Machine](https://github.com/emergencyrussell/OpenOTP32#11-detecting-the-esp32-on-your-machine)
 ###### 1.2 [Installing the Needed Libraries](https://github.com/emergencyrussell/OpenOTP32#12-installing-the-needed-libraries)
+##### 2. [Prepare the Thermal Printer](https://github.com/emergencyrussell/OpenOTP32#contents)
+###### 2.1. [Connect the Printer to the ESP32]()
 
 ## [Building](https://github.com/emergencyrussell/OpenOTP32#building)
 ### Parts
@@ -62,9 +64,11 @@ You may need some drivers to get your machine to detect the ESP32: I used the [S
 
 Sketch -> Include Library -> Add .ZIP Library…
 
-#### 2. Prepare the thermal printer
+#### 2. Prepare the Thermal Printer
 
 Depending on your cable situation, you may need to solder. The QR204 typically comes with connector cables, which can be used in conjunction with the breadboard cables, or the connectors can be bypassed with female to female breadboard cables if necessary. Using male + female breadboard cables with the provided QR204 connectors is a more sturdy connection.
+
+##### 2.1. Connect the Printer to the ESP32
 
 - TX: Attach to Pin 16 on the ESP32
 - RX: Attach to Pin 17
