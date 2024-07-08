@@ -90,7 +90,7 @@ Sketch -> Include Library -> Add .ZIP Library…
 
 #### 2. <a name="2_preprint">[Prepare the Thermal Printer](#2-preprint)</a>
 
-Depending on your cable situation, you may need to solder. The QR204 typically comes with connector cables, which can be used in conjunction with the breadboard cables, or the connectors can be bypassed with female to female breadboard cables if necessary. Using male-female breadboard cables with the provided QR204 connectors is a more sturdy connection.
+Depending on your cable situation, you may need to solder. The QR204 typically comes with connector cables, which can be used in conjunction with the breadboard jumpers, or the connectors can be bypassed with female to female breadboard jumpers if necessary. Using male-female breadboard jumpers with the provided QR204 connectors is a more sturdy temporary connection. The breadboard jumpers should be sufficient for the data connections.
 
 Connect the Printer to the ESP32:
 
@@ -106,7 +106,7 @@ To be able to run the OTP assembly off of the USB power bank, you'll need to str
 
 #### 4. <a name="4_conpow">[Connect Power](#4-conpow)</a>
 
-Attach the red wire (VIN) of the trash USB to the VIN cable of the QR204 and the VIN pin of the ESP32, and then attach the black wire (GND) of the USB to the GND cable and pin, with soldering, alligator clips, or, for austere builds, the breadboard cables can be stripped and twisted together with the USB wires. 
+Attach the red wire (VIN) of the trash USB to the VIN cable of the QR204 and the VIN pin of the ESP32, and then attach the black wire (GND) of the USB to the GND cable and pin, with soldering, alligator clips, or, for austere builds, the breadboard jumpers can be stripped and twisted together with the USB wires. For more permanent builds, the [Adafruit Thermal Printer Manual](https://cdn-learn.adafruit.com/downloads/pdf/mini-thermal-receipt-printer.pdf) (p.11) cautions that "breadboard wires are small gauge and not suited to continuous heavy power draw," so strudier-gauge wires should be implemented.
 
 
 #### 5. <a name="5_powass">[Power On the Assembly](#5-powass)</a>
