@@ -32,7 +32,7 @@
 
 OpenOTP-32 is a development board project that prints One-Time Pad keys on thermal receipt paper using an ESP32 DevKitC v4 and a QR204 thermal printer. "Open" meaning open source, "OTP" meaning "One-Time Pad," and "32" to denote the ESP32 dev board.
 
-The project was conceived to be as accessible and affordable as possible while maintaining good security.
+The project was inspired by the ADL-1 and was conceived to be as accessible and affordable as possible while still maintaining good security.
 The ESP32 was chosen since its random number generator feature (RNG) is superior to the reportedly inferior Arduino analog pin randomness and it maintains good affordability.
 
 I hope to elevate this project higher than that of a novelty toy, but people much smarter than me will have to help make that determination. Toward this end, I have a couple concerns that I hope can be put to rest:
