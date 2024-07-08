@@ -12,7 +12,7 @@ OpenOTP-32 is a development board project that prints One-Time Pad keys on therm
 The project was conceived to be as accessible and affordable as possible while maintaining good security.
 The ESP32 was chosen since its random number generator feature (RNG) is superior to the reportedly inferior Arduino analog pin randomness.
 
-I hope to elevate this project higher than that of a novelty toy, but people much smarter than me will have to make that determination. Toward this end, I have a couple concerns that I hope can be put to rest:
+I hope to elevate this project higher than that of a novelty toy, but people much smarter than me will have to help make that determination. Toward this end, I have a couple concerns that I hope can be put to rest:
 
 ### *1. Is the ESP32 RNG sufficiently unpredictable?*
 
