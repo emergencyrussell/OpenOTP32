@@ -13,7 +13,7 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 
 ### *1. Is the ESP32 RNG sufficiently unpredictable?*
 
-> [The hardware RNG produces true random numbers…](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
+> [The hardware RNG produces true random numbers…](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/random.html)
 
 The ESP32 RNG is hardware based and "samples physical noise are continuously mixed into the internal hardware RNG state to provide entropy."
 
