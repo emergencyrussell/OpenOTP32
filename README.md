@@ -24,6 +24,8 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 
 ### *2. Do the WiFi/Bluetooth connectivity features of the ESP32 present a vulnerability?*
 
+¯\_(ツ)_/¯
+
 # Contents:
 ## <a name="b-building">[Building](#b_building)</a>
 ### <a name="p-parts">[Parts](#p_parts)</a>
