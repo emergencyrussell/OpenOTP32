@@ -4,7 +4,7 @@
 
 ![An OpenOTP-32 in action](/assets/images/openotp32-1.jpg)
 
-## *A Hardware One-Time Pad Printer for the Masses*
+## *A DIY Hardware One-Time Pad Printer for the Masses*
 
 # Contents:
 ## <a name="i-intro">[Introduction](#i_intro)</a>
