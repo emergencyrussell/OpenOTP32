@@ -49,7 +49,7 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 
 Ϩ-(ツ)-S
 
-Let's get down to business:
+Now then, let's get down to business:
 
 ## <a name="b_building">[Building](#b-building)</a>
 ### <a name="p_parts">[Parts](#p-parts)</a>
