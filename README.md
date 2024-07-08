@@ -1,10 +1,13 @@
-# OpenOTP32
+# OpenOTP-32
+
+![An OpenOTP-32 in action](/assets/images/openotp32-1.jpg)
+
 ## *A Hardware One-Time Pad Printer for the Masses*
 
 • Current Version: 0.1.0
 
 
-OpenOTP32 is a development board project that prints One-Time Pad keys on thermal receipt paper using an ESP32 DevKitC v4 and a QR204 thermal printer. "Open" meaning open source, "OTP" meaning "One-Time Pad," and "32" to denote the ESP32 dev board.
+OpenOTP-32 is a development board project that prints One-Time Pad keys on thermal receipt paper using an ESP32 DevKitC v4 and a QR204 thermal printer. "Open" meaning open source, "OTP" meaning "One-Time Pad," and "32" to denote the ESP32 dev board.
 
 The project was conceived to be as accessible and affordable as possible while maintaining good security.
 The ESP32 was chosen since its random number generator feature (RNG) is superior to the reportedly inferior Arduino analog pin randomness.
