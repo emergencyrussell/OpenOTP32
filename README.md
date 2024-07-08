@@ -47,7 +47,7 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 ##### (your build may vary)
 - ESP32
 - QR204
-- 2A USB power bank (USB already provides the correct voltage, 5V)
+- 2A-output USB power bank (USB already provides the correct voltage, 5V)
 - Breadboard extension cables (male-female, or female-female)
 - Trash USB cable
 
