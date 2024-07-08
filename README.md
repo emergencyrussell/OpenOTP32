@@ -81,7 +81,7 @@ Total ends up being from $67 to $112 or so, depending on what parts you already 
 
 
 
-### <a name="instal-ass">[Installation & Assembly](#instal_ass)</a>
+### <a name="instal_ass">[Installation & Assembly](#instal-ass)</a>
 
 
 #### 1. <a name="1_upsketch">[Upload the Sketch](#1-upsketch)</a>
@@ -92,7 +92,7 @@ In the code, the `sequenceLength` variable determines how many digits the key us
 ##### <a name="1_1_detesp">[Detecting the ESP32 on Your Machine](#1-1-detesp)</a>
 You may need some drivers to get your machine to detect the ESP32: I used the [Silicon Labs CP210x VCP Windows Driver](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads) (Third option down).
 
-##### <a name="1_2_instalib">[Installing the Needed Libraries](#1-2-instalib):
+##### <a name="1_2_instalib">[Installing the Needed Libraries](#1-2-instalib)</a>:
 
 - [Adafruit Thermal Printer Library](https://github.com/adafruit/Adafruit-Thermal-Printer-Library)
 - [EspSoftware Serial](https://github.com/plerup/espsoftwareserial)
