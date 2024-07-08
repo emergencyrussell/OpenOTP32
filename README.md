@@ -45,11 +45,14 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 ## <a name="b_building">[Building](#b-building)</a>
 ### <a name="p_parts">[Parts](#p-parts)</a>
 ##### (your build may vary)
-- ESP32
-- QR204
-- 2A-output USB power bank (USB already provides the correct voltage, 5V)
-- Breadboard extension cables (male-female, or female-female)
-- Trash USB cable
+- ESP32 - ~$5 - $10
+- QR204 - ~$30 - $40
+- 57mm thermal receipt paper - ~$2/roll
+- 2A-output USB power bank (USB already provides the correct voltage, 5V) - ~$20 - $50
+- Breadboard extension cables (male-female, or female-female) - ~$5
+- Trash USB cable - about five bucks new, if you reeeally can't find one lying around
+
+Total ends up being from $67 to $112 or so, depending on what parts you already have.
 
 #### ESP32
 - Sketch is written using Arduino IDE v1.8.
