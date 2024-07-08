@@ -43,6 +43,8 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 
 5. <a name="5-powass">[Power On the Assembly](#5_powass)</a>
 
+## <a name="u-usage">[Usage](#u_usage)</a>
+
 
 
 ## <a name="b_building">[Building](#b-building)</a>
@@ -119,7 +121,7 @@ Plug the USB cable into the power bank and switch on. That's all there is to it.
 
 ![Identical key pair](/assets/images/openotp32-2.jpg)
 
-# Usage
+# <a name="u_usage">[Usage](#u-usage)</a>
 
 ![One-Time Pad codex](/assets/images/openotp32-3.jpg)
 
