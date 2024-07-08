@@ -78,7 +78,7 @@ Total ends up being from $67 to $112 or so, depending on what parts you already 
 
 
 #### 1. <a name="1_upsketch">[Upload the Sketch](#1-upsketch)</a>
-After setting up your machine to detect the ESP32 and installing the necessary libraries, upload the provided code from the Arduino IDE v1.8 to the ESP32 board.
+After setting up your machine to detect the ESP32 and installing the necessary libraries, upload the [provided code](/OpenOTP32/OpenOTP32.ino) from the Arduino IDE v1.8 to the ESP32 board.
 
 ##### <a name="1_1_detesp">[Detecting the ESP32 on Your Machine](#1-1-detesp)</a>
 You may need some drivers to get your machine to detect the ESP32: I used the [Silicon Labs CP210x VCP Windows Driver](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads) (Third option down).
