@@ -125,6 +125,8 @@ Plug the USB cable into the power bank and switch on. That's all there is to it.
 
 First convert your plaintext using your codex (e.g. above). Then, to encrypt, subtract the random digits from the plaintext conversion. If you get a negative number, add ten. If you get more than 9, subtract ten. This way, you always maintain a digit from 0-9. Once the encryption is complete, you can send the seemingly random string of numbers to your friend :)
 
-To decrypt, it's a similar process, but in reverse. Since your friend has an identical key, they can add the key and convert the numbers back to plaintext.
+To decrypt, it's a similar process, but in reverse. Since your friend has an identical key, they can add the key and convert the numbers back to plaintext and read your message.
+
+Advanced usage of the One-Time Pad incorporates a codebook, using number sequences to represent common words or phrases, which adds an extra layer of security.
 
 What sets the One-Time Pad apart from its less-secure ancestor, Vigenère, is its key length and the principle of only ever using a key once. If you use a key to encrypt or decrypt a message, you must never use the key again or all the messages you send with it can no longer be considered secure. Best practice is to destroy the key. Thermal paper is particularly ideal in this regard, since the numbers are printed with heat (*thermally* even) they can be destroyed with heat. Generate friction with your fingernail or pour your kettle over it and watch the numbers vanish.
