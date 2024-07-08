@@ -1,5 +1,5 @@
 # OpenOTP32
-## A Hardware One-Time Pad Printer for the Masses
+## *A Hardware One-Time Pad Printer for the Masses*
 
 • Current Version: 0.1.0
 
