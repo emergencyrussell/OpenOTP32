@@ -11,7 +11,7 @@ The ESP32 was chosen since its random number generator feature (RNG) is superior
 
 I hope to elevate this project higher than that of a novelty toy, but people much smarter than me will have to make that determination. Toward this end, I have a couple concerns that I hope can be put to rest:
 
-*1. Is the ESP32 RNG sufficiently unpredictable?*
+### *1. Is the ESP32 RNG sufficiently unpredictable?*
 
 The ESP32 RNG is hardware based and ["samples physical noise are continuously mixed into the internal hardware RNG state to provide entropy."](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
 
@@ -19,7 +19,7 @@ The ESP32 RNG is hardware based and ["samples physical noise are continuously mi
 
 *—[ESP32 Technical Reference Manual, RNG, 25.3 Functional Description](https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf#rng)*
 
-*2. Do the WiFi/Bluetooth connectivity features of the ESP32 present a vulnerability?*
+### *2. Do the WiFi/Bluetooth connectivity features of the ESP32 present a vulnerability?*
 
 # Contents
 ## <a name="b-building">[Building](#b_building)</a>
