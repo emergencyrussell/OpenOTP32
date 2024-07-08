@@ -45,7 +45,7 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 
 ## <a name="u-usage">[Usage](#u_usage)</a>
 
-
+Let's get down to business:
 
 ## <a name="b_building">[Building](#b-building)</a>
 ### <a name="p_parts">[Parts](#p-parts)</a>
