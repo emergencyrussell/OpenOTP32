@@ -1,32 +1,13 @@
 # OpenOTP-32
 
+• Current Version: 0.1.0
+
 ![An OpenOTP-32 in action](/assets/images/openotp32-1.jpg)
 
 ## *A Hardware One-Time Pad Printer for the Masses*
 
-• Current Version: 0.1.0
-
-
-OpenOTP-32 is a development board project that prints One-Time Pad keys on thermal receipt paper using an ESP32 DevKitC v4 and a QR204 thermal printer. "Open" meaning open source, "OTP" meaning "One-Time Pad," and "32" to denote the ESP32 dev board.
-
-The project was conceived to be as accessible and affordable as possible while maintaining good security.
-The ESP32 was chosen since its random number generator feature (RNG) is superior to the reportedly inferior Arduino analog pin randomness.
-
-I hope to elevate this project higher than that of a novelty toy, but people much smarter than me will have to help make that determination. Toward this end, I have a couple concerns that I hope can be put to rest:
-
-### *1. Is the ESP32 RNG sufficiently unpredictable?*
-
-> [The hardware RNG produces true random numbers…](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/random.html)
-
-> A data sample of 2 GB, which is read from the random number generator at a rate of 5 MHz with only the highspeed ADC being enabled, has been tested using the Dieharder Random Number Testsuite (version 3.31.1). The sample passed all tests.
-
-*—[ESP32 Technical Reference Manual, RNG, 25.3 Functional Description](https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf#rng)*
-
-### *2. Do the WiFi/Bluetooth connectivity features of the ESP32 present a vulnerability?*
-
-Ϩ-(ツ)-S
-
 # Contents:
+## <a name="i-intro">[Introduction](#i_intro)</a>
 ## <a name="b-building">[Building](#b_building)</a>
 ### <a name="p-parts">[Parts](#p_parts)</a>
 ### <a name="t-tools">[Tools](#t_tools)</a>
@@ -46,6 +27,27 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 5. <a name="5-powass">[Power On the Assembly](#5_powass)</a>
 
 ## <a name="u-usage">[Usage](#u_usage)</a>
+
+<a name="i_intro">And now, a word…</a>
+
+OpenOTP-32 is a development board project that prints One-Time Pad keys on thermal receipt paper using an ESP32 DevKitC v4 and a QR204 thermal printer. "Open" meaning open source, "OTP" meaning "One-Time Pad," and "32" to denote the ESP32 dev board.
+
+The project was conceived to be as accessible and affordable as possible while maintaining good security.
+The ESP32 was chosen since its random number generator feature (RNG) is superior to the reportedly inferior Arduino analog pin randomness.
+
+I hope to elevate this project higher than that of a novelty toy, but people much smarter than me will have to help make that determination. Toward this end, I have a couple concerns that I hope can be put to rest:
+
+### *1. Is the ESP32 RNG sufficiently unpredictable?*
+
+> [The hardware RNG produces true random numbers…](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/random.html)
+
+> A data sample of 2 GB, which is read from the random number generator at a rate of 5 MHz with only the highspeed ADC being enabled, has been tested using the Dieharder Random Number Testsuite (version 3.31.1). The sample passed all tests.
+
+*—[ESP32 Technical Reference Manual, RNG, 25.3 Functional Description](https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf#rng)*
+
+### *2. Do the WiFi/Bluetooth connectivity features of the ESP32 present a vulnerability?*
+
+Ϩ-(ツ)-S
 
 Let's get down to business:
 
