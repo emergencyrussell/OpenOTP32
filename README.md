@@ -28,7 +28,7 @@
 
 ## <a name="u-usage">[Usage](#u_usage)</a>
 
-<a name="i_intro">And now, a word…</a>
+<a name="i_intro">First some background:</a>
 
 OpenOTP-32 is a development board project that prints One-Time Pad keys on thermal receipt paper using an ESP32 DevKitC v4 and a QR204 thermal printer. "Open" meaning open source, "OTP" meaning "One-Time Pad," and "32" to denote the ESP32 dev board.
 
