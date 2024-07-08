@@ -46,7 +46,7 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 ### <a name="p_parts">[Parts](#p-parts)</a>
 ##### (your build may vary)
 - ESP32: ~$5 - $10
-- QR204: - ~$30 - $40
+- QR204: ~$30 - $40
 - 57mm thermal receipt paper: ~$2/roll
 - 2A-output USB power bank (USB already provides the correct voltage, 5V): ~$20 - $50
 - Breadboard extension cables (male-female, or female-female): ~$5
