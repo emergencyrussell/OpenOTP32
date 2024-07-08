@@ -15,8 +15,6 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 
 > [The hardware RNG produces true random numbers…](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/random.html)
 
-The ESP32 RNG is hardware based and "samples physical noise are continuously mixed into the internal hardware RNG state to provide entropy."
-
 > A data sample of 2 GB, which is read from the random number generator at a rate of 5 MHz with only the highspeed ADC being enabled, has been tested using the Dieharder Random Number Testsuite (version 3.31.1). The sample passed all tests.
 
 *—[ESP32 Technical Reference Manual, RNG, 25.3 Functional Description](https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf#rng)*
