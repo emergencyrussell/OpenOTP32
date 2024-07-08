@@ -17,7 +17,7 @@ The ESP32 RNG is hardware based and ["samples physical noise are continuously mi
 
 > A data sample of 2 GB, which is read from the random number generator at a rate of 5 MHz with only the highspeed ADC being enabled, has been tested using the Dieharder Random Number Testsuite (version 3.31.1). The sample passed all tests.
 
-—[ESP32 Technical Reference Manual, RNG, 25.3 Functional Description](https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf#rng)
+*—[ESP32 Technical Reference Manual, RNG, 25.3 Functional Description](https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf#rng)*
 
 *2. Do the WiFi/Bluetooth connectivity features of the ESP32 present a vulnerability?*
 
