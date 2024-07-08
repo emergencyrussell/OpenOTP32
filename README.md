@@ -61,7 +61,7 @@ I hope to elevate this project higher than that of a novelty toy, but people muc
 - Breadboard extension cables (male-female, or female-female): ~$5
 - Trash USB cable: about five bucks new, if you reeeally can't find one lying around
 
-Total ends up being from $67 to $112 or so, depending on what parts you already have. Compare to the $280 ADL-1.
+Total ends up being from $67 to $112 or so if you need to buy all the parts. Compare to the $280 ADL-1.
 
 #### ESP32
 - Sketch is written using Arduino IDE v1.8.
@@ -73,7 +73,7 @@ Total ends up being from $67 to $112 or so, depending on what parts you already 
 - It's a fun little printer. I recommend playing around with it to see all the cool things you can do with it. :)
 
 #### Power Bank
-2A output. Per the [Adafruit documentation](https://cdn-learn.adafruit.com/downloads/pdf/mini-thermal-receipt-printer.pdf), a current of 2A is required for the printer to function. This means the low-end 1A power banks won't cut it.
+2A output. Per the [Adafruit documentation](https://cdn-learn.adafruit.com/downloads/pdf/mini-thermal-receipt-printer.pdf), a current of 2A is required for the printer to function. This means any low-end 1A power banks or wall warts won't cut it.
 
 ### <a name="t_tools">[Tools](#t-tools)</a>
 - A wire stripper (or sharp edge)
@@ -118,7 +118,7 @@ To be able to run the OTP assembly off the USB power bank, you'll need to strip 
 
 #### 4. <a name="4_conpow">[Connect Power](#4-conpow)</a>
 
-Attach the red wire (VIN) of the trash USB to the VIN cable of the QR204 and the VIN pin of the ESP32, and then attach the black wire (GND) of the USB to the GND cable and pin, with soldering, alligator clips, or, for austere builds, the breadboard jumpers can be stripped and twisted together with the USB wires. For more permanent builds, the [Adafruit Thermal Printer Manual](https://cdn-learn.adafruit.com/downloads/pdf/mini-thermal-receipt-printer.pdf) (p.11) cautions that "breadboard wires are small gauge and not suited to continuous heavy power draw," so sturdier-gauge wires should be implemented.
+Attach the red wire (voltage) of the trash USB to the VIN cable of the QR204 and the VIN pin of the ESP32, and then attach the black wire (ground) of the USB to the GND cable and pin, with soldering, alligator clips, or, for austere builds, the breadboard jumpers can be stripped and twisted together with the USB wires. For more permanent builds, the [Adafruit Thermal Printer Manual](https://cdn-learn.adafruit.com/downloads/pdf/mini-thermal-receipt-printer.pdf) (p.11) cautions that "breadboard wires are small gauge and not suited to continuous heavy power draw," so sturdier-gauge wires should be implemented.
 
 
 #### 5. <a name="5_powass">[Power On the Assembly](#5-powass)</a>
@@ -137,4 +137,4 @@ To decrypt, it's a similar process, but in reverse. Since your friend has an ide
 
 Advanced usage of the One-Time Pad incorporates a codebook, using number sequences to represent common words or phrases, which adds an extra layer of security.
 
-What sets the One-Time Pad apart from its less-secure ancestor, Vigenère, is its key length and the principle of only ever using a key once. If you use a key to encrypt or decrypt a message, you must never use that key again or all the messages you send with it can no longer be considered secure. Best practice is to destroy the key once it is used. Thermal paper is particularly ideal in this regard, since the numbers are printed with heat (*thermally,* you might say!) they can be destroyed with heat. Generate friction with your fingernail or pour your kettle over it and watch the numbers vanish.
+What sets the One-Time Pad apart from its less-secure ancestor, Vigenère, is its key length and the principle of only ever using a key once. If you use a key to encrypt or decrypt a message, you must never use that key again or all the messages you send with it can no longer be considered secure. Best practice is to destroy the key once it is used. Thermal paper is particularly ideal in this regard, since the numbers are printed thermally, that is, with heat, they can then be destroyed with heat. Generate friction with your fingernail or pour your kettle over it and watch the numbers vanish.
