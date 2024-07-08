@@ -71,6 +71,7 @@ Total ends up being from $67 to $112 or so, depending on what parts you already 
 
 ### <a name="t_tools">[Tools](#t-tools)</a>
 - A wire stripper (or sharp edge)
+- (Optional) Soldering iron and solder
 
 
 
