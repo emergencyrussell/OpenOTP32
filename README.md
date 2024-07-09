@@ -144,10 +144,10 @@ What sets the One-Time Pad apart from its less-secure ancestor, Vigenère, is it
 # <a name="b_builds">[Builds](#b-builds)</a>
 
 ## Austere
-Just short of several hands holding all the contacts together, the most desperate build of the OpenOTP-32 would be just the ESP32, TTL thermal printer, breadboard jumpers, a USB cable, and a cheap power bank, built by plugging the female ends of the jumpers to the pins on the printer and ESP32 and baring the six wires on the USB and jumpers coming from VIN and GND and twisting them all together (that's USB Voltage, Printer VIN, and ESP32 VIN together; then USB Ground, Printer GND, and ESP32 GND together).
+Just short of several hands holding all the contacts together, the most desperate build of the OpenOTP-32 would be just the ESP32, TTL thermal printer, breadboard jumpers, a USB cable, and a cheap power bank, built by plugging the female ends of the jumpers to the pins on the printer and ESP32 and baring the six wires on the USB and jumpers coming from VIN and GND and twisting them together in two groups, Voltage and Ground (that's USB Voltage, Printer VIN, and ESP32 VIN together; then USB Ground, Printer GND, and ESP32 GND together).
 
 ## Barely Permanent
 Building off the Austere build, swap out the breadboard jumpers for Voltage and Ground for a bigger gauge, according to the [Adafruit thermal printer recommendations,](https://cdn-learn.adafruit.com/downloads/pdf/mini-thermal-receipt-printer.pdf) and solder or clamp the three wires for Voltage and three for Ground together. Jumpers can stay in place for the TTL connection.
 
 ## Pro
-Design-maxxing the OpenOTP-32, I envision the printer locked into a container and appending additional code to trigger key prints using a switch on one of the available pins of the ESP32. The USB cable could be routed through the container and plugged into any power bank, which could be taped or Velcro'd to the outside of the box.
+Design-maxxing the OpenOTP-32, I envision the printer locked into a container and appending additional code to trigger prints using a switch on one of the available pins of the ESP32. The USB cable could be routed through the container and plugged into any power bank, which could be taped or Velcro'd to the outside of the box.
