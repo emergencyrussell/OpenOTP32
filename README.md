@@ -8,7 +8,7 @@
 
 # Contents:
 ## <a name="i-intro">[Introduction](#i_intro)</a>
-## <a name="b-building">[Building](#b_building)</a>
+## <a name="c-construction">[Construction](#c_construction)</a>
 ### <a name="p-parts">[Parts](#p_parts)</a>
 ### <a name="t-tools">[Tools](#t_tools)</a>
 ### <a name="instal-ass">[Installation & Assembly](#instal_ass)</a>
@@ -51,7 +51,7 @@ I hope to elevate this project above that of a novelty toy, but people much smar
 
 ### Now then, let's get down to business:
 
-## <a name="b_building">[Building](#b-building)</a>
+## <a name="c_construction">[Construction](#c-construction)</a>
 ### <a name="p_parts">[Parts](#p-parts)</a>
 ##### (your build may vary)
 - ESP32: ~$5 - $10
@@ -138,3 +138,14 @@ To decrypt, it's a similar process, but in reverse. Since your friend has an ide
 Advanced usage of the One-Time Pad incorporates a codebook, using number sequences to represent common words or phrases, which adds an extra layer of security.
 
 What sets the One-Time Pad apart from its less-secure ancestor, Vigenère, is its key length and the principle of only ever using a key once. If you use a key to encrypt or decrypt a message, you must never use that key again or all the messages you send with it can no longer be considered secure. Best practice is to destroy the key once it is used. Thermal paper is particularly ideal in this regard, since the numbers are printed thermally, that is, with heat, they can then be destroyed with heat. Generate friction with your fingernail or pour your kettle over it and watch the numbers vanish.
+
+# <a name="b_builds">[Builds](#b-builds)</a>
+
+## Austere
+Just short of several hands holding all the contacts together, the most desperate build of the OpenOTP-32 would be just the ESP32, TTL thermal printer, breadboard jumpers, a USB cable, and a cheap power bank, built by plugging the female ends of the jumpers to the pins on the printer and ESP32 and baring the six wires on the USB and jumpers coming from VIN and GND and twisting them all together (that's USB Voltage, Printer VIN, and ESP32 VIN together; then USB Ground, Printer GND, and ESP32 GND together).
+
+## Barely Permanent
+Building off the Austere build, swap out the breadboard jumpers for Voltage and Ground for a bigger gauge, according to the [Adafruit thermal printer recommendations,](https://cdn-learn.adafruit.com/downloads/pdf/mini-thermal-receipt-printer.pdf) and solder or clamp the three wires for Voltage and three for Ground together. Jumpers can stay in place for the TTL connection.
+
+## Pro (concept)
+Design-maxxing the OpenOTP-32, I envision the printer locked into a container and appending additional code to trigger key prints using a switch on one of the available pins of the ESP32. The USB cable could be routed through the container and plugged into any power bank, which could be taped or Velcro'd to the outside of the box.
