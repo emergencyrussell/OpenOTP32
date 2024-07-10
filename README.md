@@ -89,7 +89,7 @@ Total ends up being from $67 to $112 or so if you need to buy all the parts. Com
 #### 1. <a name="1_upsketch">[Upload the Sketch](#1-upsketch)</a>
 After setting up your machine to detect the ESP32 and installing the necessary libraries, upload the [provided code](/OpenOTP32/OpenOTP32.ino) from the Arduino IDE v1.8 to the ESP32 board.
 
-In the code, the `sequenceLength` variable determines how many digits the key uses. The code will automatically group the numbers into five digits and will automatically line break after 25 digits, or five groups of five. These groupings were determined based off the printing width, but the `sequenceLength` variable is made to play with. You can have a whole CVS receipt of a One-Time Pad key if you like :)
+In the code, the `sequenceLength` variable determines how many digits the key uses. The code will automatically group the numbers into five digits and will automatically line break after twenty-five digits, or five groups of five. These groupings were determined based off the printing width, but the `sequenceLength` variable is made to play with. You can have a whole CVS receipt of a One-Time Pad key if you like :)
 
 ##### <a name="1_1_detesp">[Detecting the ESP32 on Your Machine](#1-1-detesp)</a>
 You may need some drivers to get your machine to detect the ESP32: I used the [Silicon Labs CP210x VCP Windows Driver](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads) (Third option down).
