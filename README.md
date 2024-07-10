@@ -69,7 +69,7 @@ Total ends up being from $67 to $112 or so if you need to buy all the parts. Com
 
 #### ESP32
 - Sketch is written using Arduino IDE v1.8.
-- Installed are the Adafruit Thermal Printer and the EspSoftwareSerial libraries.
+- Installed are the Adafruit Thermal Printer and the EspSoftwareSerial libraries, as well as setting up the IDE for use with the ESP32
 - Pins 16 and 17 send and receive data between the QR204.
 
 #### QR204
