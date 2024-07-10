@@ -49,6 +49,8 @@ I hope to elevate this project above that of a novelty toy, but people much smar
 
 ### *2. Do the WiFi/Bluetooth connectivity features of the ESP32 present a vulnerability?*
 
+WiFi is enabled by default, which assists entropy. It's possible this could act as an attack vector, but I don't know enough about WiFi or the ESP32 to make a determination. Tl;dr:
+
 Ϩ-(ツ)-S
 
 ### Now then, let's get down to business:
