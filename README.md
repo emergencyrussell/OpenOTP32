@@ -117,7 +117,7 @@ Connect the Printer to the ESP32:
 
 #### 3. <a name="3_prepusb">[Prepare the USB Cable](#3-prepusb)</a>
 
-To be able to run the OTP assembly off the USB power bank, you'll need to strip your USB cable so that the ESP32 and QR204 Voltage (VIN) and Ground (GND) pins are connected to the juice. 
+To be able to run the OTP assembly off the USB power bank, you'll need to strip your USB cable so that the ESP32 and QR204 Voltage (VIN) and Ground (GND) pins can be connected to the juice. 
 
 
 #### 4. <a name="4_conpow">[Connect Power](#4-conpow)</a>
