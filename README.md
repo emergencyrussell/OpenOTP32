@@ -152,4 +152,4 @@ Just short of several hands holding all the contacts together, the most desperat
 Building off the Austere build, swap out the breadboard jumpers for Voltage and Ground for a bigger gauge, according to the [Adafruit thermal printer recommendations,](https://cdn-learn.adafruit.com/downloads/pdf/mini-thermal-receipt-printer.pdf) and solder or clamp the three wires for Voltage and three for Ground together. Jumpers can stay in place for the TTL connection.
 
 ## Boxed
-I envision the printer locked into a container and appending additional code to trigger prints using a switch on one of the available pins of the ESP32. The USB cable could be routed through the container and plugged into any power bank, which could be taped or Velcro'd to the outside of the box.
+I envision the printer locked into a container and the addition of an external switch to toggle the power. The USB cable could be routed through the container and plugged into any power bank, which could be taped or Velcro'd to the outside of the box.
