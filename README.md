@@ -141,7 +141,7 @@ To decrypt, it's a similar process, but in reverse. Since your friend has an ide
 
 Advanced usage of the One-Time Pad incorporates a codebook, using number sequences to represent common words or phrases, which adds an extra layer of security.
 
-What sets the One-Time Pad apart from its less-secure ancestor, Vigenère, is its key length and the principle of only ever using a key once. If you use a key to encrypt or decrypt a message, you must never use that key again or all the messages you send with it can no longer be considered secure. Best practice is to destroy the key once it is used. Thermal paper is particularly ideal in this regard, since the numbers are printed thermally, that is, with heat, they can then be destroyed with heat. Generate friction with your fingernail or pour your kettle over it and watch the numbers vanish.
+What sets the One-Time Pad apart from its less-secure ancestor, Vigenère, is its key length spanning at least the entire message and the principle of only ever using a key once. If you use a key to encrypt or decrypt a message, you must never use that key again or all the messages you send with it can no longer be considered secure. Best practice is to destroy the key once it is used. Thermal paper is particularly ideal in this regard, since the numbers are printed thermally, that is, with heat, they can then be destroyed with heat. Generate friction with your fingernail or pour your kettle over it and watch the numbers vanish.
 
 # <a name="b_builds">[Builds](#b-builds)</a>
 
