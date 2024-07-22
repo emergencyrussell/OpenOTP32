@@ -150,7 +150,8 @@ Just short of several hands holding all the contacts together, the most desperat
 
 ## Barely Permanent
 ![Introducing solder and hot glue](/assets/images/openotp32-4.jpg)
-Building off the Austere build, swap out the breadboard jumpers for Voltage and Ground for a bigger gauge, according to the [Adafruit thermal printer recommendations,](https://cdn-learn.adafruit.com/downloads/pdf/mini-thermal-receipt-printer.pdf) and solder or clamp the three wires for Voltage and three for Ground together. Jumpers can stay in place for the TTL connection or soldered directly to the board. Use hot glue to taste :)
+Building off the Austere build, swap out the breadboard jumpers for Voltage and Ground for a bigger gauge, according to the [Adafruit thermal printer recommendations,](https://cdn-learn.adafruit.com/downloads/pdf/mini-thermal-receipt-printer.pdf) and solder or clamp the three wires for Voltage and three for Ground together. Jumpers can stay in place for the TTL connection or soldered directly to the board. 
+Hot glue to taste :)
 
 ## Boxed
 I envision the printer locked into a container and the addition of an external switch to toggle power. The USB cable could be routed through the container and plugged into any power bank, which could be taped or Velcro'd to the outside of the box.
