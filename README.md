@@ -154,7 +154,7 @@ Building off the Austere build, swap out the breadboard jumpers for Voltage and 
 
 Hot glue to taste (use a lot) :)
 
-(Note: For all my talk about following Adafruit's recommendation on upgrading wire gauge, USB wires, such as those pictured in my build above, are not so robust and promise to burn out under the electrical load. I do like using USB for the portability, though, so perhaps a custom USB cable is in order.)
+(Note: For all my talk about following Adafruit's recommendation on upgrading wire gauge, USB wires, such as those pictured in the Barely Permanent build above, are not so robust and promise to burn out under the electrical load. I do like using USB for the portability, though, so perhaps a custom USB cable is in order.)
 
 ## Boxed
 I envision the printer locked into a container and the addition of an external switch to toggle power. The USB cable could be routed through the container and plugged into any power bank, which could be taped or Velcro'd to the outside of the box.
