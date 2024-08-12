@@ -122,7 +122,7 @@ To be able to run the OTP assembly off the USB power bank, you'll need to strip 
 
 #### 4. <a name="4_conpow">[Connect Power](#4-conpow)</a>
 
-Attach the red wire (voltage) of the trash USB to the VIN cable of the QR204 and the VIN pin of the ESP32, and then attach the black wire (ground) of the USB to the GND cable and pin, with soldering, alligator clips, or, for austere builds, the breadboard jumpers can be stripped and twisted together with the USB wires. For more permanent builds, the [Adafruit Thermal Printer Manual](https://cdn-learn.adafruit.com/downloads/pdf/mini-thermal-receipt-printer.pdf) (p.11) cautions that "breadboard wires are small gauge and not suited to continuous heavy power draw," so sturdier-gauge wires should be implemented.
+Attach the red wire (voltage) of the trash USB to the VIN cable of the QR204 and the VIN pin of the ESP32, and then attach the black wire (ground) of the USB to the GND cable and pin, with soldering, alligator clips, or, for austere builds, the breadboard jumpers can be stripped and twisted together with the USB wires. For more permanent builds, the [Adafruit Thermal Printer Manual](https://cdn-learn.adafruit.com/downloads/pdf/mini-thermal-receipt-printer.pdf) (p.11) cautions that "breadboard wires are small gauge and not suited to continuous heavy power draw," so sturdier-gauge wires *should* be implemented, but the wires in the USB cable are likely just as bad, so don't worry about it. This project is all about keeping it minimal and accessible.
 
 
 #### 5. <a name="5_powass">[Power On the Assembly](#5-powass)</a>
