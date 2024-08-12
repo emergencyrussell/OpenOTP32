@@ -63,9 +63,9 @@ WiFi is enabled by default, which assists entropy. It's possible this could act 
 - 57mm thermal receipt paper: ~$2/roll
 - 2A-output USB power bank (USB already provides the correct voltage, 5V): ~$20 - $50
 - Breadboard extension cables (male-female, or female-female): ~$5
-- Trash USB cable: about five bucks new, if you reeeally can't find one lying around
+- Trash USB cable: about three bucks, if you reeeally can't find one lying around
 
-Total ends up being from $67 to $112 or so if you need to buy all the parts. Compare to the $280 ADL-1.
+Total ends up being anywhere from $67 to $112 or so if you need to buy all the parts. Compare to the $280 ADL-1.
 
 #### ESP32
 - Sketch is written using Arduino IDE v1.8.
