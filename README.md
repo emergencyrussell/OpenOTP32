@@ -1,6 +1,6 @@
 # OpenOTP-32
 
-• Current Version: 0.1.0
+• Current Version: 1.0.0
 
 ![An OpenOTP-32 in action](/assets/images/openotp32-1.jpg)
 
